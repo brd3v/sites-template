@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+
+}
+
+body{
+    font-size: 18px;
+
+}
+
+
+.menu{
+    height: 100vh;
+    position: fixed;
+    width: 15%;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+  
+    transition: 0.3s ease-in;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 25%;
+}
+.menu:hover{
+
+    
+}
+.one{
+   
+    align-items: center;
+    height: 100vh;
+    background-color: #1E1E1E;
+    display: flex;
+    color: white;
+    width: 85%;
+    overflow: hidden;
+    margin-left: 15%;
+  ;
+    
+}
+.green{
+    height: 100vh;
+    background-color: green;
+}
+
+.menu nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+.menu a:hover{
+    border-bottom: 1px solid rgb(136, 127, 127);
+    transition: 0.5s ease-in;
+    color: rgb(136, 127, 127);
+    
+  
+}
+
+.menu nav a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    transition: 0.3s ease-in;
+}
+
+.invit{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    border-top: 1px solid white;
+    transition: 0.3s ease-in;
+    
+}
+.invit:hover{
+
+
+}
+.logo{
+    width: 45%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.sec-two{
+height: 100%;    
+align-items: center;
+justify-content: center;
+display: flex;
+width: 100%;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    height: 300px;
+
+    
+}
+.sec-one{
+    max-height: 50%;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.sec-one h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sec-one h4{
+    margin-bottom: 0.5rem;
+}
+.card-one,.card-two, .card-try, .card-for{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    width: 25%;
+margin-left: 1rem;
+
+}
+
+
+.card-for{
+    align-items: end;
+    display: flex;
+    
+}
+
+.img img{
+    min-height: 100%;
+    
+    border-radius: 2px;
+    justify-content: center;
+   
+ 
+
+}
+
+.app{
+ width: 100%;
+
+
+}
+.sec-one {
+    width: 100% ;
+    margin-left: 2rem;
+
+}
+
+
+.description{
+    width: 100%;
+    height: 50%;
+   
+    margin-top: 1rem;
+    text-align: start;
+    
+}
+
+.description p{
+    overflow: hidden; /* remove o estouro do elemento */
+    text-overflow: ellipsis; /* adiciona “...” no final */
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* quantidade de linhas */
+    -webkit-box-orient: vertical;
+}
+
+.img-4{
+
+min-height: 100%;
+align-items: start;
+justify-content: end;
+width: 100%;
+   
+}
+.img-4 img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 80%;
+}
+
+.two{
+    height: 100vh;
+    background-color: #1E1E1E;
+    display: flex;
+    color: white;
+    min-width: 85%;
+    overflow: hidden;
+    margin-left: 13%;
+    flex-direction: column
+
+  ;
+}
+
+
+.title{
+    margin-left: 4rem;
+    display: flex;
+    margin-top: 8rem;
+    height: 50px;
+    width: 100%;
+    position: static;
+    ;
+}
+.t-1,.t-2{
+    
+    align-items: center;
+    
+}
+.t-2{margin-top: 25px; margin-left: 25px;
+    
+}
+.drid{
+    width: 16%;
+    margin-left: 15px;
+     justify-content: center;
+}
+
+.grid
+{
+ 
+margin-top: 5rem;
+justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-right: 2rem;
+    border-radius: 20rem;
+    flex-direction: row;
+}
+
+.drid img{
+    width: 100%;
+}
+
+.tree{
+    height: 100vh;
+    background-color: #1E1E1E;
+    display: flex;
+    color: white;
+    min-width: 85%;
+    overflow: hidden;
+    margin-left: 15%;
+    justify-content: space-between;
+}
+
+.f-1{
+    margin-left: 2rem;
+    
+}
+
+.f-1 input {
+    width: 100%;
+    height: 50px ;
+    background-color: transparent;
+    border: 1px solid white;
+    border-top-right-radius: 20px ;
+    border-bottom: 100%
+
+    ;
+    color: white;
+   
+}
+.siga, .rs, .sp{
+margin-left: 5rem;
+
+
+}
+
+.siga img,.rs img, .sp img {
+    height: 30px;
+  
+}
+
+
+.l-1{
+    display: flex;
+    width: 100%;
+}
+
+.tel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.c-1{
+    
+    width:50%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cima{
+    display: flex;
+}
+
+.cima img {
+    margin-right: 1rem;
+    width: 10px;
+    height: 20px;
+
+
+}
+.map{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.l-2{
+
+    display: flex;
+    margin-top: 1rem;
+}
+
+.l-2 img{
+    width: 100px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.contact{
+ 
+    width: 100px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    background-image: url('../../public/src/fontawesome-free-6.1.1-web/svgs/solid/5.svg');
+    background-size: 100%;
+    background-position-y: center;
+   
+}
+.number-for{
+ 
+    width: 100px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../public/src/fontawesome-free-6.1.1-web/svgs/solid/3.svg');
+    background-size: 100%;
+    background-position-y: center;
+
+
+
+}
+.dois{
+    font-size: 100px;
+ 
+    width: 100px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../public/src/fontawesome-free-6.1.1-web/svgs/solid/2.svg');
+    background-size: 100%;
+    background-position-y: center;
+}
+
+
+.grupo, .plan, .ful{
+    margin-left: 5rem;
+}
+.mobi{
+    display: none;
+}
+
+@media (max-width: 820px)
+{
+    .one{
+        display: none;
+    }
+
+.two{
+    display: none;
+}
+
+.tree{
+    display: none;
+}
+.contact{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.mobi{
+    display: block;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+}
+
